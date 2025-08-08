@@ -6,8 +6,10 @@
 //
 
 import Foundation
+import SwiftData
 
 //adding name and birthday
+@Model 
 class Friend {
     var name: String
     var birthday: Date
@@ -15,6 +17,6 @@ class Friend {
     init(name: String, birthday: Date) {
         self.name = name
         self.birthday = birthday
-    }
+    }// end of init 
     
-}// end of Friend 
+}// end of Friend
